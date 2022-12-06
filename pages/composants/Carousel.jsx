@@ -8,9 +8,9 @@ const Carousel = () => {
     const Proceed = [
         { title : "1 ▸ Définir tes besoins", desc : 'Nous définissons tes besoins, la nature de ton site, quel type de site, l\'objectif du site ?'},
         { title : "2 ▸ SEO", desc : "Le référencement de votre site est un enjeu important pour augmenter sa visibilité auprès des internautes. Il sera important pour moi d'établir des stratégies de référencement, afin de les appliquer et de vous placer en haut du classement."},
-        { title : "3 ▸ The conception", desc : "Après notre discussion sur votre projet, je passerai à la conception de votre site internet avec un suivi régulier en appliquant en parallèle des stratégies de référencement."},
+        { title : "3 ▸ La conception", desc : "Après notre discussion sur votre projet, je passerai à la conception de votre site internet avec un suivi régulier en appliquant en parallèle des stratégies de référencement."},
         { title : "4 ▸ Test", desc : "La réalisation de la phase de test garantira que tous les éléments fonctionnent parfaitement. Il s'agit d'une étape finale importante pour éviter tous les types d'erreurs."},
-        { title : "5 ▸ Delivery", desc : "Nous sommes arrivés à la réalisation de votre commande. Le site vous est livré, ainsi que la possibilité de rester en contact avec moi pour me solliciter pour d'autres projets !"}
+        { title : "5 ▸ Livraison", desc : "Nous sommes arrivés à la réalisation de votre commande. Le site vous est livré, ainsi que la possibilité de rester en contact avec moi pour me solliciter pour d'autres projets !"}
     ]
 
 

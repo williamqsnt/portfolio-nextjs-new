@@ -34,7 +34,7 @@ export default function Contact() {
 
         <p>Comment me contacter ?</p>
         <p>C&apos;est tout simple ! Envoie moi un mail sur mon <br/> adresse : </p>
-        <div style={{width :'310px', height : '50px', border : '1px solid rgb(73, 242, 202)', display : 'flex', alignItems : 'center', justifyContent : 'center', marginTop : '1em'}}>
+        <div style={{width :'310px', height : '50px', border : '1px solid rgb(73, 242, 202)', display : 'flex', alignItems : 'center', justifyContent : 'center', marginTop : '2em'}}>
                 <a href="google.com">quesnot.william@hotmail.com</a>
               </div>
           

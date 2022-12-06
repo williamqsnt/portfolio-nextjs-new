@@ -18,7 +18,7 @@ const Carousel = () => {
         dot : true,
         infinite : true,
         speed :300,
-        slidesToShow : 2,
+        slidesToShow : 1,
         slidestoScroll : 1,
         cssEase : "linear"
     }
@@ -74,14 +74,16 @@ const Container = styled.div`
 .allpage{
   display : flex; 
   justify-content : center;
-  width : 350px;
+  width : 320px;
+  
 }
   .page{
-      width : 120%; 
+      width : 100%; 
       border-radius : 10px;
     
   }  
   .card-wrapper{
+
       border : 5px solid black;
       width : 90%;
       height : 100%;

@@ -24,7 +24,7 @@ export default function Competences() {
   const [isSkills, setIsSkills] = useState(true);
 
 
-  return isSkills ? (
+  return(
     <div className={styles.container}>
       <Head>
         <title>Portfolio | William Quesnot</title>
@@ -43,11 +43,11 @@ export default function Competences() {
           { isSkills ?(
             <section>
                 <div style={{display : 'flex', alignItems : 'center', justifyContent : 'center'}}>
-                    <button style={{ backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em', cursor : 'pointer'}}><h3>Compétences principales</h3></button>
-                    <button onClick={()=> setIsSkills(false)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202) ', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Compétences complémentaires</h3></button>
+                    <button style={{ backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em', cursor : 'pointer'}}><h3>Compétences principales</h3></button>
+                    <button onClick={()=> setIsSkills(false)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202) ', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Compétences complémentaires</h3></button>
                 </div>
                 <div>
-                    <h3>FRONT-END</h3>
+                    <h3 style={{marginLeft : '0.4em'}}>FRONT-END</h3>
                     <div style={{display : 'flex', justifyContent : 'space-around'}}>
                         <Image src={html} alt="html" width={50} />
                         <Image src={css} alt="css" width={50} />
@@ -56,13 +56,13 @@ export default function Competences() {
                     </div>
                 </div>
                 <div>
-                    <h3>BACK-END</h3>
+                    <h3 style={{marginLeft : '0.4em'}}>BACK-END</h3>
                     <div style={{display : 'flex', justifyContent : 'space-around'}}>
                         <Image src={js} width={50} alt="js" />
                     </div>
                 </div>
                 <div>
-                    <h3>BASE DE DONNÉES</h3>
+                    <h3 style={{marginLeft : '0.4em'}}>BASE DE DONNÉES</h3>
                     <div style={{display : 'flex', justifyContent : 'space-around', alignItems : 'center'}}>
                         <Image src={mysql} width={80} alt="mysql" />
                         <Image src={mongodb} width={80} alt="mongodb"/>
@@ -70,7 +70,7 @@ export default function Competences() {
                     </div>
                 </div>
                 <div>
-                    <h3>FRAMEWORKS</h3>
+                    <h3 style={{marginLeft : '0.4em'}}>FRAMEWORKS</h3>
                     <div style={{display : 'flex', justifyContent : 'space-around'}}>
                         <Image src={react} width={50} alt="react" />
                     </div>
@@ -80,8 +80,14 @@ export default function Competences() {
           (
             <section>
                 <div style={{display : 'flex', alignItems : 'center', justifyContent : 'center'}}>
-                    <button onClick={()=> setIsSkills(true)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202)', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em'}}><h3>Compétences principales</h3></button>
-                    <button style={{ cursor : 'pointer',backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Compétences complémentaires</h3></button>
+                    <button onClick={()=> setIsSkills(true)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202)', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em'}}><h3>Compétences principales</h3></button>
+                    <button style={{ cursor : 'pointer',backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Compétences complémentaires</h3></button>
+                </div>
+
+                <div>
+                  <h3>Marketing digital</h3>
+                  <p>SEO - Keywords</p>
+                  <p>SEA - Google Ads</p>
                 </div>
             </section>
           )}
@@ -92,8 +98,7 @@ export default function Competences() {
       </section>
 
     </div>
-  ):(
-    <div>ok</div>
+
   )
 }
 

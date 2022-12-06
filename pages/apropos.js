@@ -33,8 +33,8 @@ export default function Apropos() {
         {isChange ?(
                 <div>
         <div style={{display : 'flex', alignItems : 'center', justifyContent : 'center'}}>
-                    <button style={{ backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em', cursor : 'pointer'}}><h3>Mes informations</h3></button>
-                    <button onClick={()=> setChange(false)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202) ', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Comment je procède</h3></button>
+                    <button style={{ backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em', cursor : 'pointer'}}><h3>Mes informations</h3></button>
+                    <button onClick={()=> setChange(false)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202) ', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Comment je procède</h3></button>
                 </div>
 
               <p style={{padding : '1em', textAlign : 'justify'}}>Je suis William Quesnot. J&apos;ai fait un bac scientifique. Ensuite, j&apos;ai suivi une formation Google à distance en marketing digital et j&apos;ai obtenu le diplôme Les fondamentaux du Marketing Digital.<br/><br/>
@@ -47,8 +47,8 @@ Je suis motivé et curieux d&apos;apprendre de nouvelles choses. Je souhaite dé
             ):(
                 <div>
                      <div style={{display : 'flex', alignItems : 'center', justifyContent : 'center'}}>
-                        <button onClick={()=> setChange(true)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202)', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em'}}><h3>Mes informations</h3></button>
-                        <button style={{ cursor : 'pointer',backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '190px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Comment je procède</h3></button>
+                        <button onClick={()=> setChange(true)} style={{ cursor : 'pointer',backgroundColor : 'transparent', color : 'rgb(73, 242, 202)', border : '1px solid rgb(73, 242, 202)', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent :' center', marginRight : '0.5em'}}><h3>Mes informations</h3></button>
+                        <button style={{ cursor : 'pointer',backgroundColor : 'rgb(73, 242, 202)', border : 'none', padding : '1em 2em', width : '170px', height : '50px', display : 'flex', alignItems : 'center', justifyContent : 'center', marginLeft : '0.5em'}}><h3>Comment je procède</h3></button>
                     </div>
                     
               
